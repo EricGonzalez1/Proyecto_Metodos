@@ -1,3 +1,5 @@
+import tkinter as tk
+from tkinter import messagebox
 
 def saluda():
-    print("¡Hola! ¿Cómo estás?")
+    messagebox.showinfo("Mensaje", "¡Hola! ¿Cómo estás?")

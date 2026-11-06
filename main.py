@@ -10,7 +10,7 @@ ventana = tk.Tk()
 ventana.title("Mi primera ventana")
 ventana.geometry("1400x900")
 
-boton = tk.Button(ventana, text="Haz clic aquí", command=mensaje)
+boton = tk.Button(ventana, text="Haz clic aquí", command=addPrueba.saluda)
 boton.pack()
 
 ventana.mainloop()
@@ -18,5 +18,4 @@ ventana.mainloop()
 # PROBANDO COMENTARIOS
 # OTRO COMENTARIO  
 
-addPrueba.saluda()
 
