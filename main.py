@@ -6,7 +6,7 @@ def mensaje():
 
 ventana = tk.Tk()
 ventana.title("Mi primera ventana")
-ventana.geometry("1470x956")
+ventana.geometry("1400x900")
 
 boton = tk.Button(ventana, text="Haz clic aquí", command=mensaje)
 boton.pack()
