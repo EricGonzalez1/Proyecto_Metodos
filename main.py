@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+import addPrueba
+
 def mensaje():
     messagebox.showinfo("Mensaje", "¡Hola! Has hecho clic en el botón.")
 
@@ -15,3 +17,6 @@ ventana.mainloop()
 
 # PROBANDO COMENTARIOS
 # OTRO COMENTARIO  
+
+addPrueba.saluda()
+
